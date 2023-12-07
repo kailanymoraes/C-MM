@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.logo h2{
+    color: #fff;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 455%;
+} 
+
+.search input{
+    width: 360px;
+    height: 32px;
+    border-radius: 6px;
+}
+
+.fa-magnifying-glass {
+    margin-left: -24px;
+    color:darkred;
+}
+
+.menu-service {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.service a {
+    color: #fff;
+    text-decoration: none;
+}
+.whatsapp  {
+    padding: 10px;
+}
+
+.fa-headphones {
+    color: #fff;
+    margin-right: 8px;
+}
+
+.fa-whatsapp {
+    color: #fff;
+    margin-left: 40px;
+}
+
+.fa-user {
+    color: #fff;
+    margin-left: 4px;
+}
+
+.fa-heart {
+    color: #fff;
+    padding-left: 32px;
+    font-size: xx-large;
+}
+
+.fa-bag-shopping {
+    color: #fff;
+    padding-left: 8px;
+    font-size: xx-large;
+}
+
+.location {
+    display: flex;
+    padding-left: 24px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.second-menu ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    list-style: none;
+}
+
+.second-menu .outlet a {
+    color: red;
+}
+
+.second-menu li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.square {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 28px;
+    color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+.truck{
+    background-color: red;
+    padding: 40px 20px;
+    color: white;
+    font-size: larger;
+}
+
+.fa-truck {
+    font-size: 40px;
+}
+
+.clock {
+    background-color: red;
+    padding: 50px 34px;
+    color: white;
+    font-size: larger;
+}
+
+.fa-clock {
+    font-size: 40px;
+}
+
+.card {
+    background-color: red;
+    padding: 50px 50px;
+    color: white;
+    font-size: larger;
+}
+
+.fa-credit-card {
+    font-size: 40px;
+}
+
+.mobile {
+    background-color: red;
+    padding: 50px 34px;
+    color: white;
+    font-size: larger;
+}
+
+.fa-mobile-screen-button {
+    font-size: 40px;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.banner i {
+    position: absolute;
+}
+
+.banner .fa-chevron-left {
+    left: 16px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 4px 8px;
+    color: #F9F1F1;
+}
+
+.banner .fa-chevron-right {
+    right: 16px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0,.5);
+    padding: 4px 8px;
+    color: #F9F1F1;
+}
+
+.banner img {
+    width: 100% ;
+}
+
+.news {
+    text-align: center;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.clothes {
+    align-items: center;
+}
+
+.main-clothes ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.main-clothes ul li {
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-clothes img {
+    width: 60%;
+}
+
+.clothes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.clothes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: red;
+    padding: 40px;
+}
+
+.sobre {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.sobre li {
+    list-style: none;
+    padding-top: 15px;
+    color: white;
+ 
+}
